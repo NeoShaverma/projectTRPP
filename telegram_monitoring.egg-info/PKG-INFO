@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: telegram_monitoring
+Version: 0.1.0
+Summary: Telegram Monitoring Bot using Telethon for monitoring channels with marker words
+Author: Your Name
+Author-email: your.email@example.com
+Requires-Python: >=3.7
+Requires-Dist: telethon>=1.24.0
+Requires-Dist: sphinx>=5.0.0
+Requires-Dist: sphinx-autodoc-typehints>=1.18.0
+Requires-Dist: sphinx_rtd_theme>=1.0.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
