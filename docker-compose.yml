@@ -1,0 +1,21 @@
+version: "3.8"
+services:
+  keyword-monitor:
+    build: .
+    environment:
+      - API_ID=${API_ID}
+      - API_HASH=${API_HASH}
+      - SESSION=${SESSION}
+      - KEYWORDS=${KEYWORDS}
+      - CHANNELS=${CHANNELS}
+      - THRESHOLD=${THRESHOLD}
+      - WINDOW_MINUTES=${WINDOW_MINUTES}
+      - ALERT_CHAT=${ALERT_CHAT}
+      - FORWARD_CHAT=${FORWARD_CHAT}
+    volumes:
+      - ./session_data:/app/session
+      - ./data:/app/data
+    restart: unless-stopped
+volumes:
+  session_data:
+  data:
