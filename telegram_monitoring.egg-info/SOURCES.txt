@@ -1,8 +1,0 @@
-README.md
-setup.py
-telegram_monitoring.egg-info/PKG-INFO
-telegram_monitoring.egg-info/SOURCES.txt
-telegram_monitoring.egg-info/dependency_links.txt
-telegram_monitoring.egg-info/entry_points.txt
-telegram_monitoring.egg-info/requires.txt
-telegram_monitoring.egg-info/top_level.txt
